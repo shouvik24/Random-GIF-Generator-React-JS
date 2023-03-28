@@ -23,7 +23,7 @@ const useGif = (tag) => {
   //   }
   useEffect(() => {
     fetchData();
-  }, []);
+  });
 
   return { gif, loading, fetchData };
 };
